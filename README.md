@@ -7,8 +7,11 @@ Bissenbay Dauletbayev - b.dauletbayev@sdu.edu.kz
 
 # Team members
 •	Zarina Belgibayeva
+
 •	Akgul Bozshina
+
 •	Gulnazik Kubasheva
+
 •	Nazerke Muratova
 
 
