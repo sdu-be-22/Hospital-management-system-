@@ -6,7 +6,17 @@ Made with Python framework Django, JavaScript , HTML and CSS
 Bissenbay Dauletbayev - b.dauletbayev@sdu.edu.kz
 
 # Team members
--Zarina Belgibayeva
--Akgul Bozshina
--Gulnazik Kubasheva
--Nazerke Muratova
+•	Zarina Belgibayeva
+•	Akgul Bozshina
+•	Gulnazik Kubasheva
+•	Nazerke Muratova
+
+
+# Presentation
+link to presentation
+
+# Technology Stack
+
+
+
+# Screenshots
