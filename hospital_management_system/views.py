@@ -578,4 +578,20 @@ def robot(request):
         "captcha": FormWithCaptcha,
     }
     return render(request, 'robot.html', context)
-   
+
+
+def checkout(request):
+
+     # if request.user.is_authenticated:
+     #      customer = request.user.customer
+     #      order, created = Order.objects.get_or_create(customer=customer, complete=False)
+     #      items = OrderItem.objects.all()
+     # else:
+     #      items = []
+     #      order = {'get_cart_total': 0, 'get_cart_items': 0, 'shipping': False}
+
+     context = {
+          # 'items': items,
+          # 'order': order
+     }
+     return render(request, 'store/checkout.html', context)
