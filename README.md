@@ -19,11 +19,13 @@ Bissenbay Dauletbayev - b.dauletbayev@sdu.edu.kz
 link to presentation
 
 # Technology Stack
-Back-end:
-Front-end:
-Database:
-Additional libraries:
+•	Back-end:
 
+•	Database:
+
+•	Front-end:
+
+•	Additional libraries:
 
 
 # Screenshots
