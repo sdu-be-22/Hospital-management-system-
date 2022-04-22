@@ -1,0 +1,31 @@
+{% extends 'index.html' %}
+{% block content %} 
+<div class="form-container">
+    <div class="form-content">
+        <div class="form-image">
+            {% load static %}
+            <img src="{% static 'calc/login-banner.png' %}" width="30%" height="30%"> 
+        </div>
+            <form action=" " method="POST"> 
+            {% csrf_token %} 
+            <h3>Register</h3> 
+            <div class="form-input"> 
+                <input type="text" placeholder="Username" name="username" required><br>
+                <input type="text" placeholder="First name" name="first_name" required><br> 
+                <input type="text" placeholder="Last name" name="last_name" required><br> 
+                <input type="email" name="email"  placeholder="Enter your email" required><br> 
+                <input type="password" name="password1" placeholder="password..."><br> 
+                <input type="password" name="password2" placeholder="Confirm password "> 
+            </div>
+        {% for message in messages %}
+        <p style="color: red; font-weight: bold;">{{message}}</p>
+        {% endfor %} 
+        <p id="acc"><a href="{% url 'login' %}">Already have an account?</a></p>
+        <button class="btn btn-primary">Signup</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+
+

@@ -1,0 +1,30 @@
+{% extends 'doctor_base.html' %}
+{% block content %}
+  <div class="appointment-container">
+    <div class="appointment-content">
+        <div class="image">
+            <img src="https://doccure-laravel.dreamguystech.com/template/public/assets/img/login-banner.png" width="50%" height="30%"> 
+        </div>
+  <form action="" method="POST">
+    {% csrf_token %}
+    <h3 style="text-align: center; padding-top: 1em; padding-bottom: 1em;">Book an Appointment</h3>
+    <div class="input">
+      <label>Name</label><input type="text" name="first_name" >
+      <label>Last Name</label><input type="text" name="last_name">
+      <label>Your Age</label><input type="text" name="age">
+      <label>Email address</label><input type="email" name="email"  placeholder="Your email">
+      <label for="id_doctor" >Choose a doctor</label><br>
+      <select name="doctor" id="id_doctor">
+        {% for i in doctors %}
+         <option>{{i.first_name}}||{{i.last_name}}</option>
+      
+        {% endfor %}
+       </select>
+       <input type="date" name="date" > 
+       <input type="time" name="time" >
+     </div> 
+     <input type="submit" class="btn btn-primary" value="submit">
+ </form> 
+    </div>
+</div>
+{% endblock %}

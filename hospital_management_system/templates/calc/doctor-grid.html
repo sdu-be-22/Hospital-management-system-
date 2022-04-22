@@ -1,0 +1,55 @@
+{% extends 'doctor_base.html' %}
+<title>Doctor's list</title>
+
+    <style>
+        .image-thumbail{
+            height: 200px;
+            object-fit: cover;
+        }
+
+    </style>
+
+{% block content %}
+<div class="m-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+               <div class="card">
+                    <div class="card-header">
+                      Categories
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                          <a href="{% url 'doctor-grid' %}">All</a> 
+                        </li>
+                      {% for category in categories %}
+                      
+                      <li class="list-group-item">
+                        <a href="{% url 'doctor-grid' %}?category={{category.name}}">{{category.name}}</a> 
+                    </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                  {% for Doctors in profiles %}
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="image-thumbail" src="{{Doctors.image.url}}" alt="Card image cap">
+                            <div class="card-body">
+                                <h4>{{Doctors.first_name}} {{Doctors.last_name}}</h4>
+                              <p>Category: {{Doctors.category.name}}</p>
+                            </div>
+                            <a href=" {% url 'doctor-profile' Doctors.id %} " class="btn btn-outline-dark btn-sm m-1">Read More</a>
+                          </div>
+                    </div>
+                    {% empty %}
+                    <h3>No doctors...</h3>
+                    {% endfor %}
+                </div
+            </div>
+        </div>
+    </div>
+  </div>
+{% endblock %}
