@@ -21,6 +21,7 @@ from django.contrib.auth.decorators import login_required
 import csv
 import xlwt
 
+from .my_captcha import FormWithCaptcha
 #------------------------ HOME PAGE ----------------------------------------------
 #---------------------------------------------------------------------------------
 def home(request):
@@ -571,4 +572,10 @@ def store(request):
           # 'cartItems': cartItems
      }
      return render(request, 'store/store.html', context)
+
+def robot(request):
+    context = {
+        "captcha": FormWithCaptcha,
+    }
+    return render(request, 'robot.html', context)
    
