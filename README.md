@@ -1,4 +1,4 @@
-# Hospital management system
+# Hospital Management System
 Made with Python framework Django, JavaScript , HTML and CSS
 
 
@@ -19,7 +19,13 @@ Bissenbay Dauletbayev - b.dauletbayev@sdu.edu.kz
 link to presentation
 
 # Technology Stack
+•	Back-end:
 
+•	Database:
+
+•	Front-end:
+
+•	Additional libraries:
 
 
 # Screenshots
