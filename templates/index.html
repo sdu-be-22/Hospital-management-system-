@@ -25,19 +25,12 @@
         <a href="#doctors">doctors</a>
         <a href="#review">review</a>
         <a href="#blogs">blogs</a>
-        <a href="{% url 'register' %}" class="btn" style="color: #1669a0;"> Sign up </a>
-        <a href="{% url 'login' %}" class="btn" style="color: #1669a0;"> Login </a>
+        <a href="{% url 'register' %}">Doctor</a>
+        <a href="{% url 'login' %}">Patient</a>
     </nav>
-
-    <!-- <div id="menu-btn" class="fas fa-bars"></div> -->
 
 </header>
 
-<!-- header section ends -->
-<section class="home" id="home">
-{% block content %}
-{% endblock %}
-</section>
 <script type="text/javascript">
     (function(d, m){
         var kommunicateSettings = 
@@ -47,9 +40,8 @@
         var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
         window.kommunicate = m; m._globals = kommunicateSettings;
     })(document, window.kommunicate || {});
-/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
 </script>
-<!-- home section starts  -->
+
 <section class="home" id="home">
 
     <div class="image">
@@ -65,9 +57,7 @@
 
 </section>
 
-<!-- home section ends -->
 
-<!-- icons section starts  -->
 
 <section class="icons-container">
 
@@ -83,11 +73,7 @@
         <p>satisfied patients</p>
     </div>
 
-    <div class="icons">
-        <i class="fas fa-procedures"></i>
-        <h3>500+</h3>
-        <p>bed facility</p>
-    </div>
+
 
     <div class="icons">
         <i class="fas fa-hospital"></i>
@@ -97,9 +83,7 @@
 
 </section>
 
-<!-- icons section ends -->
 
-<!-- about section starts  -->
 
 <section class="about" id="about">
 
@@ -123,9 +107,7 @@
 
 </section>
 
-<!-- about section ends -->
 
-<!-- services section starts  -->
 
 <section class="services" id="services">
 
@@ -154,27 +136,10 @@
             <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
         </div>
 
-        <div class="box">
-            <i class="fas fa-procedures"></i>
-            <h3>bed facility</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
-            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-heartbeat"></i>
-            <h3>total care</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
-            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
-        </div>
 
     </div>
 
 </section>
-
-<!-- services section ends -->
-
-<!-- doctors section starts  -->
 
 <section class="doctors" id="doctors">
 
@@ -242,9 +207,7 @@
 
 </section>
 
-<!-- doctors section ends -->
 
-<!-- review section starts  -->
 
 <section class="review" id="review">
     
@@ -298,9 +261,7 @@
 
 </section>
 
-<!-- review section ends -->
 
-<!-- blogs section starts  -->
 
 <section class="blogs" id="blogs">
 
@@ -360,11 +321,6 @@
 
 </section>
 
-<!-- blogs section ends -->
-
-
-
-<!-- footer section starts  -->
 
 <section class="footer">
 
@@ -394,7 +350,7 @@
 
 </section>
 
-<!-- footer section ends -->
+
  
 <style>
     :root{
@@ -875,42 +831,6 @@ section:nth-child(even){
 
 .footer .credit span{
     color:var(--green);
-}
-
-
-.form-content{
-    display: flex;
-    align-items: center;
-    padding: 25px 20px;
-}
-.form-image{
-    max-width: 55%;    
-}
-.form-image img{
-    width:100%;
-}
-.form-content form{
-    margin-left: 40px;
-    width: 40%;
-    padding: 12px;
-}
-.form-container{
-    color: rgb(36, 131, 240);
-}
-.form-container .form-input input{
-    padding:15px;
-    margin:10px;
-    border-radius: 4px;
-    height:100%;
-    width:90%;
-    border:1px solid #0d6efd;
-    outline: none;
-    font-size: 18px;
-}
-
-.form-container button{
-    width: 90%;
-    margin-left: 10px;
 }
 
 
