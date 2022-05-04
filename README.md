@@ -19,13 +19,13 @@ Bissenbay Dauletbayev - b.dauletbayev@sdu.edu.kz
 link to presentation
 
 # Technology Stack
-•	Back-end:
+•	Back-end:Django,Python
 
-•	Database:
+•	Database:Sqlite
 
-•	Front-end:
+•	Front-end:HTML,CSS,Javascript,Bootstrap
 
-•	Additional libraries:
+•	Additional :Captcha,Kommunicate,ZingCharts.js
 
 
 # Screenshots
