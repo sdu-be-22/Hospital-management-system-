@@ -23,8 +23,14 @@ link to presentation
 
 •	Database:Sqlite
 
-•	Front-end:HTML,CSS,Javascript,Bootstrap
+•	Front-end:
+   •	Zarina Belgibayeva
 
+   •	Akgul Bozshina
+
+   •	Gulnazik Kubasheva
+
+   •	Nazerke Muratova
 •	Additional :Captcha , Kommunicate , ZingCharts.js
 
 
