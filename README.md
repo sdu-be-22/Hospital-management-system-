@@ -25,7 +25,7 @@ link to presentation
 
 •	Front-end:HTML,CSS,Javascript,Bootstrap
 
-•	Additional :Captcha,Kommunicate,ZingCharts.js
+•	Additional :Captcha , Kommunicate , ZingCharts.js
 
 
 # Screenshots
