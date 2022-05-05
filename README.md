@@ -16,7 +16,7 @@ Bissenbay Dauletbayev - b.dauletbayev@sdu.edu.kz
 
 
 # Presentation
-link to presentation
+link to presentation:https://www.canva.com/design/DAE_xqXQxm4/o7RPHccUmne0zji9Oat68Q/view?utm_content=DAE_xqXQxm4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
 # Technology Stack
 •	Back-end:Django,Python
