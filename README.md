@@ -37,6 +37,8 @@ Link to the [presentation](https://www.canva.com/design/DAE_xqXQxm4/o7RPHccUmne0
 ![This is an image](https://sun9-80.userapi.com/s/v1/if2/y8XC7lRNch-EhT-qh0CnFhmoAcSvk64NmEFmCYC8bxFShkjzsNkAibaCsTT2b9IuHwdWKZIOurKThz6t6FXGr11i.jpg?size=1280x266&quality=96&type=album)
 # Doctor Signup/Login
 ![This is an image](https://sun9-48.userapi.com/s/v1/if2/LWmnSMuvwB1gOqRJCapxqhDZeBjVGUbCr1ZFYTugTYhfGMWl2kEMpjG5Tg5_4Al4T8eyrDPVLle3VBGy-4tsSK8K.jpg?size=1280x284&quality=96&type=album)
+# Welcome Message from Hospital
+![This is an image](https://sun9-26.userapi.com/s/v1/if2/PpdbziTABuTTnOkZeOZZrO-D4mJBNmHFwJ3ym6eqLLBVPZPrDfc9N7NZypodu_amnD6IYhFu7P3WF2dRdqkp5YoQ.jpg?size=1280x450&quality=96&type=album)
 # Patient Profile Page
 ![This is an image](https://sun9-19.userapi.com/s/v1/if2/s_aPHyEQytxkGo4xZR50lQEmW5JiTRxqyc57qETX7Oaj83WJwa7ObzPzxcTqqrBbkdU9rDrDycEHWFTf9jnflHqU.jpg?size=1280x634&quality=96&type=album)
 
