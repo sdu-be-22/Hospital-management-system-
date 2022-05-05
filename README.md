@@ -29,7 +29,7 @@ Link to the [presentation](https://www.canva.com/design/DAE_xqXQxm4/o7RPHccUmne0
 
 
 # Screenshots
-   #Home Page
+#Home Page
 ![This is an image](https://sun3-11.userapi.com/s/v1/if2/uSEOIJAZSWipkjkQRYz0c9V_g_vxdMsqzNjMJPzxmDF1OYCVhn_4zZCsDZ5h7ePXriet6w6JHO0jPgfTrhm0X4A7.jpg?size=1280x598&quality=96&type=album)
 ![This is an image](https://sun3-11.userapi.com/s/v1/if2/blMJF9HTA5-NT490_MFXcx6Xd6mvZRc8GIB-HTypwpyh478_DFGnziMr2ah2gpdHmeQmPptsnBkfYjDea9-AJWec.jpg?size=919x647&quality=96&type=album)
 ![This is an image](https://sun9-80.userapi.com/s/v1/if2/y8XC7lRNch-EhT-qh0CnFhmoAcSvk64NmEFmCYC8bxFShkjzsNkAibaCsTT2b9IuHwdWKZIOurKThz6t6FXGr11i.jpg?size=1280x266&quality=96&type=album)
