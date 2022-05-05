@@ -41,4 +41,5 @@ Link to the [presentation](https://www.canva.com/design/DAE_xqXQxm4/o7RPHccUmne0
 ![This is an image](https://sun9-26.userapi.com/s/v1/if2/PpdbziTABuTTnOkZeOZZrO-D4mJBNmHFwJ3ym6eqLLBVPZPrDfc9N7NZypodu_amnD6IYhFu7P3WF2dRdqkp5YoQ.jpg?size=1280x450&quality=96&type=album)
 # Patient Profile Page
 ![This is an image](https://sun9-19.userapi.com/s/v1/if2/s_aPHyEQytxkGo4xZR50lQEmW5JiTRxqyc57qETX7Oaj83WJwa7ObzPzxcTqqrBbkdU9rDrDycEHWFTf9jnflHqU.jpg?size=1280x634&quality=96&type=album)
-
+# Doctor Profile Page
+![This is an image](https://sun9-11.userapi.com/s/v1/if2/32FThljjOzC9vdlkG5ihonu8ncNxE-eBpKxJ80gnbJCFzw8LNdRcurzD57siXDn-tIuOzUhpXxVYDYGZ32FG2Ks7.jpg?size=1280x629&quality=96&type=album)
