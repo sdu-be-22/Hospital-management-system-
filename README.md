@@ -29,4 +29,4 @@ Link to the [presentation](https://www.canva.com/design/DAE_xqXQxm4/o7RPHccUmne0
 
 
 # Screenshots
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image](https://sun9-84.userapi.com/s/v1/if2/qgUt-nPfPqGAXzKvs43ekb72z7l1y3V81fJlu0WkKlMNbDgy8pcY5n01M66ykM_XVOYF-IWNf9NVprTGGvgHRcDg.jpg?size=1280x720&quality=96&type=album)
