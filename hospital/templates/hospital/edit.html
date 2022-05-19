@@ -1,0 +1,10 @@
+{% extends 'base/doctor_base.html' %}
+{% block title %}Update{% endblock %}
+{% block content %}
+    <h1 style="text-align: center; padding-top: 1em; padding-bottom: 1em;">Edit Appointment Information</h1>
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" class="btn btn-primary" value="Submit">
+    </form>
+{% endblock %}

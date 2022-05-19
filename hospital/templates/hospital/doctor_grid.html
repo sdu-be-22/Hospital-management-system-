@@ -1,0 +1,79 @@
+{% extends 'base/doctor_base.html' %}
+{% block content %}
+
+    <style>
+        .image-thumbail{
+            height: 200px;
+            object-fit: cover;
+        }
+
+    </style>
+
+
+
+    
+    <div class="grid">
+        <div class="row">
+            <div class="col-md-3">
+
+                <!-- <div class="card">
+                    <div class="card-header">
+                      Categories
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                          <a href="{% url 'doctor-list' %}">All</a> 
+                        </li>
+                      {% for category in categories %}
+                      
+                      <li class="list-group-item">
+                        <a href="{% url 'doctor-grid' %}?category={{category.name}}">{{category.name}}</a> 
+                    </li>
+
+                      {% endfor %} -->
+                      <!-- <li class="list-group-item">Pediatrician</li>
+                      <li class="list-group-item">Neurosurgeon</li>
+                      <li class="list-group-item">Radiologist</li>
+                      <li class="list-group-item">Mammologist</li>
+                      <li class="list-group-item">Dermatologist</li>
+                      <li class="list-group-item">Vascular Surgeon</li>
+                      <li class="list-group-item">Ophthalmologist</li>
+                      <li class="list-group-item">Optometrist</li>
+                         -->
+
+                      
+                      
+                    
+                    </ul>
+                  </div>
+
+            </div>
+            <div class="col-md-9">
+
+                <div class="row">
+
+                  {% for Doctors in profiles %}
+                    <div class="col-md-4">
+                        <div class="card" style="height: 100%;">
+                            <img  class="image-thumbail" src="{{Doctors.profile_pic.url}}" alt="Card image cap">
+                            <div class="card-body">
+                                <h4>{{Doctors.first_name}} {{Doctors.last_name}}</h4>
+                              <p>Category: {{Doctors.category.name}}</p>
+                            </div>
+                            <a href=" {% url 'profile' Doctors.id %} "  class="btn btn-outline-dark btn-sm m-1">Read More</a>
+                          </div>
+                    </div>
+                    {% empty %}
+                    <h3>No doctors...</h3>
+                    {% endfor %}
+                </div>
+
+
+            </div>
+            
+        </div>
+
+    </div>
+
+
+{% endblock %}

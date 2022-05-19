@@ -1,0 +1,91 @@
+{% extends 'base/doctor_base.html' %}
+{% block title %} Doctor Dashboard {% endblock %}
+{% block content %}
+<div class="boxes">
+    <div class="box">
+        <div class="icon">
+            {% load static %}
+            <img src="{% static 'hospital/patient.png' %}" alt="">
+        </div>
+    
+        <div class="count">
+        <h4>Number of Patients</h4>
+        <h2> {{ num_of_patients }} </h2>
+        </div>
+    </div>
+    
+    <div class="box">
+        <div class="icon">
+            {% load static %}
+            <img src="{% static 'hospital/patient1.png' %}" alt="">
+        </div>
+    
+        <div class="count">
+        <h4>Number of Patients for today</h4>
+        <h2> {{ num_of_patients_today }} </h2>
+        </div>   
+    </div>
+
+    <div class="box">
+        <div class="icon">
+            {% load static %}
+            <img src="{% static 'hospital/schedule.png' %}" alt="">
+        </div>
+    
+        <div class="count">
+        <h4>Number of Appointments</h4>
+        <h2> {{ appointment }} </h2>
+        </div>   
+    </div>
+</div>
+
+
+
+<div class="card" style="padding-top: 15px;">
+  <h1>To-do list for {{request.user.username}}</h1>
+  
+  <ul>
+    <li>
+      <p style="color: black;" >{{task}}</p>
+    </li>
+  </ul>
+<a href="{% url 'todo' %}" class="btn btn-outline-primary add-btn "> Add Task</a></button>
+ 
+</div>
+
+
+<div id="myChart">
+
+</div>
+
+
+
+<script>
+    var chardata={
+      'type': 'bar',
+      'scale-x':{
+        'values':[
+          'Completed',
+          'Not Completed',
+          'Postponed',
+          'Canceled'
+         ]
+       },
+      'series':[
+         {
+           'values':[
+             {{completed}},
+             {{notcompleted}},
+             {{postponed}},
+             {{canceled}},
+           ]
+         }
+       ]
+    }
+    zingchart.render({
+      id: 'myChart',
+      data:chardata
+    
+    });
+  </script>
+{% endblock %}

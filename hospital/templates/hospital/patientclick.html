@@ -1,0 +1,11 @@
+{% extends 'base/index.html' %}
+{% block content %} 
+<div class="jumbotron" style="margin: 0 auto;align-items: center;text-align: center;">
+    <h1 class="display-4" >Hello, Patient</h1>
+    <p class="lead" style="font-size: 23px;">Welcome to Hospital Management System.</p>
+    <p class="lead">
+      <a class="btn" href="{% url 'patientsignup' %}" role="button">Register</a>
+      <a class="btn" href="{% url 'patientlogin' %}" role="button">Login</a>
+    </p>
+</div>
+{% endblock %}

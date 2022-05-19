@@ -1,0 +1,56 @@
+{% extends 'base/doctor_base.html' %}
+{% block title %} List of the doctors {% endblock %}
+
+{% block content %}
+
+<div class="box">
+    <div class="icon">
+        {% load static %}
+        <img src="{% static 'hospital/medical-team.png' %}" alt="">
+    </div>
+    <div class="count">
+        <h4>Number of Doctors</h4>
+        <h2> {{ num_of_doctors }} </h2>
+    </div>
+</div>
+<div class="rowsearch">
+    <div class="col">
+      <div class="card card-body">
+  
+        <form method="get">
+            {{myFilter.form}}
+          <button class="btn btn-ptimary" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+    <h1 style="text-align: center; padding-top: 1em; padding-bottom: 1em;">Doctors Information</h1>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Speciality</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Email</th>
+                <th scope="col">University</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in doctors %}
+                <tr>
+                    <td>{{ i.first_name }}</td>
+                    <td>{{ i.last_name }}</td>
+                    <td>{{ i.category }}</td>
+                    <td>{{ i.mobile }}</td>
+                    <td>{{ i.email }}</td>
+                    <td>{{ i.university }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

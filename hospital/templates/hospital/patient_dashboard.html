@@ -1,0 +1,42 @@
+{% extends 'base/patient_base.html' %}
+{% block title %} Patient Dashboard {% endblock %}
+{% block content %}
+<div class="boxes">
+    <div class="box">
+        <div class="icon">
+            {% load static %}
+            <img src="{% static 'hospital/patient.png' %}" alt="">
+        </div>
+    
+        <div class="count">
+        <h4>Number of Patients</h4>
+        <h2> {{ num_of_patients }} </h2>
+        </div>
+    </div>
+    
+    <div class="box">
+        <div class="icon">
+            {% load static %}
+            <img src="{% static 'hospital/patient1.png' %}" alt="">
+        </div>
+    
+        <div class="count">
+        <h4>Number of Patients for today</h4>
+        <h2> {{ num_of_patients_today }} </h2>
+        </div>   
+    </div>
+
+    <div class="box">
+        <div class="icon">
+            {% load static %}
+            <img src="{% static 'hospital/schedule.png' %}" alt="">
+        </div>
+    
+        <div class="count">
+        <h4>Number of Appointments</h4>
+        <h2> {{ appointment }} </h2>
+        </div>   
+    </div>
+</div>
+
+{% endblock %}
